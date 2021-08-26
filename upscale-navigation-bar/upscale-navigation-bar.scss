@@ -1,0 +1,14 @@
+:host {
+     nav {
+         ul {
+             li {
+                 a {
+                     background-color: #30a433;
+                     &:hover{
+                         background-color: rgba(32, 115, 35, 1);
+                    }
+                }
+            }
+        }
+    }
+}
