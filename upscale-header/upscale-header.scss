@@ -1,22 +1,12 @@
-.upscale-header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: block;
-    box-shadow: 0 7px 100vh 0 #00000029;
-    background: #f00;
-    min-height: 54px;
-    z-index: 4;
-}
-
-[_nghost-serverApp-c152]
-{
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: block;
-    box-shadow: 0 7px 100vh 0 #00000029;
-    background: #f00;
-    min-height: 54px;
-    z-index: 4;
+:host {
+     &upscale-header{
+         position: sticky;
+         top: 0;
+         width: 100%;
+         display: block;
+         box-shadow: 0 7px 100vh 0 #00000029;
+         background: #30a433;
+         min-height: 54px;
+         z-index: 4;
+    }
 }
